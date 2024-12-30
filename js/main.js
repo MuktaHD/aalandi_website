@@ -6,8 +6,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-
-
 $(document).ready(function() {
   $('#contact-form').submit(function(e) {
       e.preventDefault();  // Prevent the default form submission

@@ -63,18 +63,6 @@ class Home extends CI_Controller {
 		$this->load->view('index',$page_data);
 	}
 
-	
-	// 			$this->session->set_flashdata('error', 'Unable to send the email. Please try again later.');
-	// 		}
-	
-	// 		redirect('home/contact'); // Redirect back to the contact page after handling the form
-	// 	}
-	
-	// 	// Load the contact page if the method is not POST
-	// 	$page_data['page_title'] = 'Contact Form';
-	// 	$page_data['page'] = 'contact';
-	// 	$this->load->view('index', $page_data);
-	// }
 	public function contactForm()
 {
     // Check if the request is POST

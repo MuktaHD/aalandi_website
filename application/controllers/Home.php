@@ -63,36 +63,7 @@ class Home extends CI_Controller {
 		$this->load->view('index',$page_data);
 	}
 
-	// public function contactForm()
-	// {
-	// 	echo "Mukta database";
-	// 	// Check if the request is POST
-	// 	if ($this->input->server('REQUEST_METHOD') === 'POST') {
-	// 		// Collect form data from POST request
-	// 		$name = $this->input->post('name');
-	// 		$email = $this->input->post('email');
-	// 		$subject = $this->input->post('subject');
-	// 		$message = $this->input->post('message');
 	
-	// 		// Basic validation (you can add more)
-	// 		if (empty($name) || empty($email) || empty($message)) {
-	// 			$this->session->set_flashdata('error', 'All fields are required.');
-	// 			redirect('home/contact'); // Redirect back to the contact page if validation fails
-	// 		}
-	
-	// 		// Process form data (send an email or store in the database)
-	// 		// Example: sending an email
-	// 		$this->load->library('email');
-	// 		$this->email->from($email, $name);
-	// 		$this->email->to('muktabhosale3@gmail.com'); // Replace with your actual email
-	// 		$this->email->subject("Contact Form Submission: $subject");
-	// 		$this->email->message($message);
-	
-	// 		if ($this->email->send()) {
-	// 			// Success: Redirect with success message
-	// 			$this->session->set_flashdata('success', 'Thank you for contacting us!');
-	// 		} else {
-	// 			// Error: Redirect with failure message
 	// 			$this->session->set_flashdata('error', 'Unable to send the email. Please try again later.');
 	// 		}
 	

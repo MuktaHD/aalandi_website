@@ -8,4 +8,6 @@ $config['mailtype'] = 'html';  // Set to HTML or plain text
 $config['charset'] = 'utf-8';  // Character set
 $config['wordwrap'] = TRUE;
 
+
+
 $this->load->library('email', $config);

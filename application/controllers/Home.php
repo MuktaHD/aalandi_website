@@ -94,7 +94,7 @@ class Home extends CI_Controller {
             log_message('error', 'Email sending failed: ' . $this->email->print_debugger());
         }
 
-        // Redirect back to the contact page after processing the form
+       
         return redirect('home/contact');
     } else {
         // If not a POST request, load the contact form page
